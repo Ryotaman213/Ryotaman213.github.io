@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.header {
+  height: 100vh;
+  background: url('images/IMG_0385.JPG');
+  background-size: cover;
+}
+.headercontent {
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding-top: 10%;
+}
+
+.pf-title {
+  letter-spacing: 0.8rem;
+  font-size: calc(1rem + 0.25vw);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 3%;
+}
+
+.site-title {
+  letter-spacing: 0.3rem;
+  font-size: calc(4rem + 0.25vw);
+  padding-top: 3%;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.site-description {
+  letter-spacing: 0.3rem;
+  font-size: calc(1.2rem + 0.25vw);
+  color: white;
+}
+
+
+.button {
+    display: inline-block;
+    width: 8rem;
+    padding: 15px;
+    margin: 5%;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-size: calc(0.7rem + 0.3vw);
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile {
+  height: 100vh;
+}
+
+.profilecontent {
+  width:80%;
+  margin: 0 auto;
+}
+
+.secondtitle {
+  font-size: calc(2rem + 0.3vw);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 5%;
+}
+
+.introduce {
+  padding-top: 1rem;
+  font-size: calc(0.3rem + 1vw);
+  float: right;
+  text-align: left;
+}
+
+.profileicon {
+  margin-top: 2rem;
+    width: 20%;
+    height: 0;
+    /* (画像の高さ / 画像の横幅) × 100 */
+  padding-top: 20%;
+  border-radius: 50%;
+  background: url('images/IMG_0387.jpg');
+  background-size: cover;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+}
+.selfintroduce {
+
+}
+.sentence {
+  font-size: calc(0.3rem + 1vw);
+  float: right;
+  text-align: left;
+}
+
+
+.works {
+  height: 100vh;
+  background-color: #383634;
+  padding-top: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.thiedtitle {
+  font-size: calc(2rem + 0.3vw);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.works-wrapper {
+  display: table;
+  width: 98%;
+  margin: 2rem auto 0;
+  table-layout: fixed;
+}
+
+.work-box {
+  display: table-cell;
+  background-color: rgba(100, 100, 100, 0.3);
+  border: 1px solid #333;
+}
+
+.work-image {
+  display: block;
+  width: 100%;
+}
+
+.work-description {
+  margin: 1rem 0;
+  font-size: calc(0.5rem + 1vw);
+}
+
+.work-description .button {
+  width: 60%;
+  margin-top: 3rem;
+  padding:0.2rem;
+  font-size: calc(0.1rem + 1vw);
+  word-wrap:break-word;
+}
+
+.button-ghost {
+  border: 2px solid #fff;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.contact {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+.contacttitle {
+  font-size: calc(2rem + 0.3vw);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 5%;
+}
+
+.contacticon {
+  font-size: calc(1rem + 8vw);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  display: table;
+  margin:12rem auto 0;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: calc(1rem + 5vw) 0;
+}
+
+.iconbox {
+  display: table-cell;
+}
+
+a {
+color:white;
+}
+
+a:hover {/*マウスが上に乗っている状態*/
+color:gray;
+text-decoration:underline;
+}

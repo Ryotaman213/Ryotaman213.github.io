@@ -1,7 +1,117 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="UTF-8">
+  <title>PortFolio</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <header class="header">
+    <div class="headercontent">
+      <p class="pf-title">OGAWA RYOTA'S portfolio</p>
+      <h1 class="site-title">MY WORKS</h1>
+      <div class="buttons">
+      <a class="button" href="#profile"><i class="far fa-user"></i>  PROFILE</a>
+      <a class="button" href="#works"><i class="fas fa-desktop"></i>WORKS</a>
+      <a class="button button-orange" href="#contact"><i class="far fa-envelope"></i>CONTACT</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="profile" id="profile">
+    <div class="secondtitle">
+      <i class="far fa-user"></i>PROFILE
+    </div>
+    <div class="profilecontent">
+      <div class="profileicon">
+      </div>
+      <div class="introduce">
+        <h2 class="selfintroduce">自己紹介</h2>
+              <div class="sentence">
+              小川僚太と申します。<br><br>
+
+          経歴：大阪府出身<br>
+               2009年に大阪経済大学卒業。<br>
+               6年1ヶ月間 京都中央信用金庫で勤務。<br>
+               <br>
+               御嶽山の噴火を期に、後悔のない人生の為に退職。<br>
+               <br>
+               カナダへのワーキングホリデーを行う。<br>
+               日本人がいないレストランで皿洗いからシェフへとなる。<br>
+               <br>
+               帰国後は岐阜県の雪山で、パークディガーとして勤務。今の妻と出会う。<br>
+               <br>
+               愛知県で内装施工会社で勤務。<br>
+               設計希望したが、営業に配属となった為に1年間の勤務の後、退職。<br><br>
+               今までの経験と興味のあるPC業務で手に職が欲しいことよりプログラミングに興味を持つ。<br><br>
+               過去に独学で挫折した経験もあり、友人に技術者もいなかったため、学校での学習を決意。<br><br>
+               現在、TECH::EXPERTにてRuby on Rails中心にフルスタックエンジニアとなるべく学習中。<br>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="works" id="works">
+      <div class="thiedtitle"><i class="fas fa-desktop"></i>WORKS</div>
+  <div class="works-wrapper">
+    <div class="work-box">
+      <img class="work-image" src="images/protfolio.png" alt="制作事例">
+      <div class="work-description">
+        MY WORKS<br>( HTML,CSS )<br><br><br>
+        <a href="https://ryotaman213.github.io/" class="button button-ghost">WEB SITE</a>
+      </div>
+    </div>
+
+    <div class="work-box">
+      <img class="work-image" src="images/chat-space.png" alt="制作事例">
+      <div class="work-description">
+        chat-space<br>( Rails )<br><br><br>
+        <a href="http://52.192.212.45/" class="button button-ghost">WEB SITE</a>
+      </div>
+    </div>
+
+    <div class="work-box">
+      <img class="work-image" src="images/repdiary.png" alt="制作事例">
+      <div class="work-description">
+        Rep Diary<br>( Rails )<br><br>Progress<br>
+        <a href="https://github.com/Ryotaman213/repdialy" class="button button-ghost">READ MORE</a>
+      </div>
+    </div>
+
+    <div class="work-box">
+      <img class="work-image" src="images/trickgames.png" alt="制作事例">
+      <div class="work-description">
+        Trick Games<br>( SWIFT )<br><br>Progress<br>
+        <a href="https://github.com/Ryotaman213/TrickGames" class="button button-ghost">READ MORE</a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contacttitle">
+      <i class="far fa-envelope"></i>CONTACT
+    </div>
+    <div class="contacticon">
+      <div class="iconbox">
+        <a href="https://twitter.com/zzaE3lukiBGkkAC"><i class="fab fa-twitter-square"></i></a>
+      </div>
+      <div class="iconbox">
+        <a href="https://www.instagram.com/ryotaman213/?hl=ja"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="iconbox">
+        <a href="mailto:ryotafreeman@gmail.com"><i class="far fa-envelope"></i></a>
+      </div>
+      <div class="iconbox">
+        <a href="https://github.com/Ryotaman213"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
