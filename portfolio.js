@@ -3,7 +3,7 @@ function showElementAnimation() {
   var element = document.getElementsByClassName('js-animation');
   if(!element) return; // 要素がなかったら処理をキャンセル
 
-  var showTiming = window.innerHeight > 768 ? 500 : 70;
+  var showTiming = window.innerHeight > 768 ? 500 : 30;
   var scrollY = window.pageYOffset;
   var windowH = window.innerHeight;
 
