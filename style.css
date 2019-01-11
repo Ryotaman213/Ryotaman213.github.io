@@ -198,7 +198,7 @@ text-decoration:underline;
   transform: translateY(0px);
 }
 
-a.language {
+#language {
   font-size: calc(1rem + 2vw);
   float: right;
   position: fixed;
@@ -208,7 +208,7 @@ a.language {
   opacity: 0.7;
 }
 
-a.languageja {
+#languageja {
   font-size: calc(1rem + 2vw);
   float: right;
   position: fixed;
