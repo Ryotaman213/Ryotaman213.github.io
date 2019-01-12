@@ -199,21 +199,17 @@ text-decoration:underline;
 }
 
 #language {
-  font-size: calc(1rem + 2vw);
-  float: right;
-  position: fixed;
-  right: 1rem;
-  top: 1rem;
   text-decoration: none;
-  opacity: 0.7;
 }
 
 #languageja {
-  font-size: calc(1rem + 2vw);
+  text-decoration: none;
+}
+.langbtn {
+  font-size: calc(0.4rem + 2.5vw);
   float: right;
   position: fixed;
-  right: 4rem;
-  top: 1rem;
-  text-decoration: none;
+  right: calc(0.4rem + 1vw);
+  top: 0.2rem;
   opacity: 0.7;
 }
